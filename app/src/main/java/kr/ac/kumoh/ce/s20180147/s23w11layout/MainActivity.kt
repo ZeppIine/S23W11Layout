@@ -51,7 +51,8 @@ fun MyLinearLayout(){
             Text(text = "컴공",
                 modifier = Modifier.background(Color.Cyan)
                     .padding(8.dp)
-            )}
+            )
+        }
         Text(text = "어디서 본 것 같은 예제",
             modifier = Modifier.background(Color.Magenta)
                 .padding(8.dp)
