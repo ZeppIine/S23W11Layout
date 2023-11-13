@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "kr.ac.kumoh.ce.s20180147.s23w11layout"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
