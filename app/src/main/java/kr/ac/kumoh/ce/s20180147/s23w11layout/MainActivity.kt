@@ -9,7 +9,6 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import kr.ac.kumoh.ce.s20180147.s23w11layout.ui.theme.S23W11LayoutTheme
 
 class MainActivity : ComponentActivity() {
@@ -40,12 +39,4 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "스마트앱 $name!",
         modifier = modifier
     )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    S23W11LayoutTheme {
-        Greeting("프로그래밍")
-    }
 }
